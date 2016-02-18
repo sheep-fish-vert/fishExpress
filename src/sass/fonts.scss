@@ -18,6 +18,9 @@
 //  example -> @include font-face('PFDinTextPro', 'PFDinTextPro-Bold', 700, italic);
 
 @include font-face('slick');
-
+@include font-face('Geometria');
+@include font-face('Geometria', 'Geometria-Light', 300);
+@include font-face('Geometria', 'Geometria-Medium', 500);
+@include font-face('Geometria', 'Geometria-Bold', 700);
 
 /* /fonts*/
