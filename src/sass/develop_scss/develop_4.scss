@@ -1,0 +1,9 @@
+.header-top-block-wrap{background: linear-gradient(to right, rgba(39,166,188,1) 0%,rgba(97,211,229,1) 25%,rgba(128,235,251,1) 50%,rgba(97,211,229,1) 75%,rgba(39,166,188,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27a6bc', endColorstr='#27a6bc',GradientType=1 );
+}
+/*top-block*/
+.top-block{padding-top: 27px;
+    .top-block-wrap{position: relative;
+        &:after{position: absolute;top: 0;left: 0;border:9px solid white;z-index: 1;content: '';}
+    }
+}
+/*/top-block*/
