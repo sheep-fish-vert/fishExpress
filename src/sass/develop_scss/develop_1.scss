@@ -12,9 +12,19 @@
 
 /* header */
 
-    .header{
+    .header{padding:25px 0;
         .mbox{display: flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;}
-        .header-menu{width: calc(100% - 525px);}
+        .header-menu{width: calc(100% - 525px);padding-top: 10px;
+            .header-menu-wrap{
+                ul{display: flex;flex-wrap:wrap;
+                    li{margin:0 5% 18px 0;font-size: 18px;
+                        a{font-family: 'AvenirNext', sans-serif;font-weight: 700;color:#fff;text-decoration: none;}
+                    }
+                }
+
+            }
+            .header-menu-sendwich{display: none;}
+        }
         .header-menu-button{
             .button{width: 245px;}
         }
