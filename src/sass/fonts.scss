@@ -6,7 +6,7 @@
         font-family: quote($style-name);
         src: url($filepath + ".eot");
         src: url($filepath + ".eot?#iefix") format('embedded-opentype'),
-        url($filepath + ".woff") format('woff'),
+        /*url($filepath + ".woff") format('woff'),*/
         url($filepath + ".ttf")  format('truetype'),
         url($filepath + ".svg#" + $style-name + "") format('svg');
         font-weight: $weight;
@@ -22,6 +22,7 @@
 @include font-face('Geometria', 'Geometria-Light', 300);
 @include font-face('Geometria', 'Geometria-Medium', 500);
 @include font-face('Geometria', 'Geometria-Bold', 700);
+@include font-face('Geometria', 'Geometria-ExtaBlack', 800);
 @include font-face('FuturaPT', 'FuturaPT-Bold', 700);
 @include font-face('AvenirNext', 'AvenirNext-UltraLight', 200);
 @include font-face('AvenirNext', 'AvenirNext-Medium', 500);
