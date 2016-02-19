@@ -8,9 +8,22 @@
 
 }
 @media screen and (max-width: 1280px){
+    .clients-partners .wrap-client{
+        .partners-wrap { padding-left: 80px;}
+        .clients-wrap {padding-right: 80px;}
+    }
+
 
 }
 @media screen and (max-width: 1024px){
+    .clients-partners .wrap-client .conteiner-fontan { float: none;  width: 100%; text-align: center; padding-right: 0; padding-left: 0;
+        .title-text{font-size: 66px;}
+        form {
+            input {max-width: 465px; text-align: left; font-size: 16px;}
+            .button { font-size: 16px; max-width: 465px;}
+        }
+
+    }
 
 }
 @media screen and (max-width: 992px){
@@ -20,9 +33,35 @@
 
 }
 @media screen and (max-width: 666px){
+    .clients-partners .wrap-client {
+        .clients-wrap form button{color: #38a6b9;}
+        .partners-wrap form button{color: #398aba;}
+
+        .conteiner-fontan {
+            .title-text{font-size: 68px;}
+            .aftertext{font-size: 30px;}
+            form {
+                input {max-width: 465px; text-align: left; height: 50px;font-size: 28px;}
+                .button { font-size: 16px; max-width: 465px; background-color: white; font-size: 30px;}
+            }
+
+        }
+    }
+
 
 }
 @media screen and (max-width: 479px){
+    .clients-partners .wrap-client {
+        .conteiner-fontan {padding-top: 47px; padding-bottom: 23px;
+            .title-text{font-size: 34px; line-height:42px;}
+            .aftertext{font-size: 15px; line-height: 20px;}
+            form {
+                input {max-width: 235px; text-align: left; font-size: 13px; height: 26px;}
+                .button { font-size: 16px; max-width: 230px; background-color: white; font-size: 15px; height: 50px; line-height: 46px;}
+            }
+
+        }
+    }
 
 }
 @media screen and (max-width: 320px){
