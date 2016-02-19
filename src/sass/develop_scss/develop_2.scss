@@ -1,0 +1,31 @@
+.clients-partners{width: 100%; background-image: url(../images/fishman.jpg); background-attachment: fixed; background-position: center center;
+    .wrap-client{background-color: rgba(58, 181, 202,0.57);
+        .partners-wrap{ text-align: left; background-color: rgba(64, 47, 99,0.57); padding-left:120px;
+            input{text-align: left;}
+        }
+        .clients-wrap{ text-align: right; padding-right:140px;
+            input{text-align: right;}
+        }
+        .conteiner-fontan{float: left; width: 50%; color: white; padding-top: 71px; padding-bottom: 52px;
+            .title-text{font-family: "Geometria", sans-serif; font-size: 69px; font-weight: 700;}
+            .aftertext{font-family: "Geometria", sans-serif; font-size: 23px; font-weight: 400;     padding-top: 25px; line-height: 28px;}
+        }
+        form{ padding-top: 13px;
+            .contact-form-item{padding-bottom: 17px;}
+            input{width: 100%; max-width: 295px; background-color: transparent; outline: none; border: 1px solid white; height: 57px; font-family: "Geometria", sans-serif; font-size: 18px; font-weight: 700; color: white; padding: 0 10px;
+                &.error{border: 1px solid red; box-shadow: inset 0px 0px 2px 2px rgba(255,0,0,1);}
+            }
+            label{display: none !important;}
+            ::-webkit-input-placeholder {color: white;}
+            ::-moz-placeholder          {color: white;}/* Firefox 19+ */
+            :-moz-placeholder           {color: white;}/* Firefox 18- */
+            :-ms-input-placeholder      {color: white;}
+            .contact-form-row{padding-top: 12px;}
+            .button{max-width: 294px; border: 3px solid white; font-family: "Geometria", sans-serif; font-size: 18px; font-weight: 700; color: white;line-height: 58px; cursor: pointer;
+                &:hover{border-color: #175b88;}
+            }
+        }
+
+    }
+}
+
