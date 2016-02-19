@@ -12,13 +12,20 @@
 
 /* header */
 
-    .header{padding:25px 0;
-        .mbox{display: flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;}
+    .header{padding:25px 0;position: relative;z-index: 2;
+        .mbox{display: flex;flex-wrap:nowrap;align-items:center;justify-content:space-between;
+            &:after{display: none;}
+        }
         .header-menu{width: calc(100% - 525px);padding-top: 10px;
             .header-menu-wrap{
                 ul{display: flex;flex-wrap:wrap;
                     li{margin:0 5% 18px 0;font-size: 18px;
-                        a{font-family: 'AvenirNext', sans-serif;font-weight: 700;color:#fff;text-decoration: none;}
+                        a{font-family: 'AvenirNext', sans-serif;font-weight: 700;color:#fff;text-decoration: none;position: relative;transition:color 300ms ease;
+                            &:after{content: '';display: block;position: absolute;height: 1px;width: 0;background-color:#fff;left:0;top: 100%;transition:background-color 300ms ease, width 300ms ease;}
+                            &:hover{color:#175b88;
+                                &:after{background-color:#175b88;width: 100%;}
+                            }
+                        }
                     }
                 }
 
