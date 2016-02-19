@@ -29,3 +29,15 @@
     }
 }
 
+
+.footer-wrap{ width: 100%;
+    .conteiner{ width: 100%; text-align: center;
+        .socials{display: flex; justify-content: center;
+            a{text-decoration: none; display: block;  margin: 0 5px; border-radius: 5px; overflow: hidden; transition: all 0.5s;
+                img{border-radius: 5px;}
+                &:hover{ border-radius: 50%;}
+            }
+        }
+    }
+}
+
