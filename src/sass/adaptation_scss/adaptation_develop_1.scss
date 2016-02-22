@@ -121,7 +121,7 @@
 
     /* transport */
 
-        .transport{background-image:url(../images/track-bg-960.png);min-height: 1125px;
+        .transport{background-image:url(../images/track-bg-960.png);min-height: 1125px;background-position: center 123%;min-height: 1065px;
             .transport-text{
                 li{font-size: 25px;line-height: 30px;margin-bottom: 20px;
                     &:last-child{margin-bottom: 0;}
@@ -242,7 +242,7 @@
 
     /* transport */
 
-        .transport{min-height: 0;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;
+        .transport{min-height: 0;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;background-position: center 100%;
             .transport-text{
                 li{font-size: 30px;line-height: 34px;}
             }
@@ -336,7 +336,7 @@
 
     /* transport */
 
-        .transport{
+        .transport{padding-bottom: 47px;background-position: center 90%;
             .transport-text{
                 li{font-size: 16px;line-height: 22px;margin-bottom: 10px;padding-left: 10px;
                     &:before{top:10px;}
