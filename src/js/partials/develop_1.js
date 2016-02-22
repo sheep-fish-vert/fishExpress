@@ -65,7 +65,7 @@ try{
             arrows:true,
             responsive: [
                 {
-                    breakpoint: 960,
+                    breakpoint: 961,
                     settings: {
                         centerMode:false,
                         slidesToShow:1
