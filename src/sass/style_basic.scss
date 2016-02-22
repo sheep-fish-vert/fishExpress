@@ -42,3 +42,15 @@ a[href^="http"]:empty::before {
 }
 
 /*End Layout*/
+
+
+@media screen and (max-width: 960px){
+    .mbox{padding: 0 40px;}
+
+}
+@media screen and (max-width: 640px){
+    .mbox{padding: 0 49px;}
+}
+@media screen and (max-width: 479px){
+    .mbox{padding: 0 29px;}
+}
