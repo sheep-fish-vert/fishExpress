@@ -122,10 +122,17 @@
 
 /* transport */
 
-    .transport{background-image:url(../images/track-bg.png);background-repeat: no-repeat;background-position: center top;min-height: 1300px;
+    .transport{background-image:url(../images/track-bg.png);background-repeat: no-repeat;background-position: center bottom;min-height: 1400px;
         .transport-text{padding-top: 30px;margin-bottom: 35px;
-            li{position: relative;padding-left: 20px;position: relative;font-size: 30px;font-weight: 700;color:#7091a7;line-height: 36px;
+            li{position: relative;padding-left: 20px;position: relative;font-size: 30px;font-weight: 700;color:#7091a7;line-height: 36px;text-shadow:0 0 1px rgba(255,255,255,1);
                 &:before{content: '';display: block;position: absolute;left:2px;top:15px;width: 4px;height: 4px;border-radius: 50%;background-color:#838383;}
+            }
+        }
+        .transport-slider-wrap{overflow: hidden;
+            .transport-slider-main{margin: 0 -500px;
+                .transport-slider-item{padding: 0 20px;
+                    a{display: block;}
+                }
             }
         }
     }

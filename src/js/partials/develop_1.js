@@ -56,11 +56,31 @@ try{
 
     };
 
+    function transportSlider(){
+
+        $('.transport-slider').slick({
+            centerMode:true,
+            slidesToShow:3,
+            infinite: true,
+            arrows:true,
+            responsive: [
+                {
+                    breakpoint: 960,
+                    settings: {
+                        centerMode:false,
+                        slidesToShow:1
+                    }
+                }
+            ]
+        });
+
+    }
 
     $(document).ready(function(){
 
         headerMenuSendwich();
         featuresSlider();
+        transportSlider();
 
     });
 
