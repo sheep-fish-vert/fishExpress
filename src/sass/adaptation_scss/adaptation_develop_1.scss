@@ -119,8 +119,37 @@
 
     /* /titles */
 
+    /* transport */
+
+        .transport{background-image:url(../images/track-bg-960.png);min-height: 1125px;
+            .transport-text{
+                li{font-size: 25px;line-height: 30px;margin-bottom: 20px;
+                    &:last-child{margin-bottom: 0;}
+                }
+            }
+            .transport-slider-wrap{padding: 0 50px;
+                .transport-slider-main{margin: 0 0;
+                    .transport-slider-item{padding: 0;text-align: center;
+                        &.slick-slide{
+                            img{margin:0 auto;}
+                        }
+                    }
+                    .slick-prev{left: 0px;}
+                    .slick-next{right: 0px;}
+                }
+            }
+        }
+
+    /* /transport */
+
 }
 @media screen and (max-width: 767px){
+
+    /* transport */
+
+        .transport{min-height: 960px;}
+
+    /* /transport */
 
 }
 @media screen and (max-width: 666px){
@@ -211,6 +240,20 @@
 
     /* /features */
 
+    /* transport */
+
+        .transport{min-height: 0;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;
+            .transport-text{
+                li{font-size: 30px;line-height: 34px;}
+            }
+            .transport-slider-wrap{padding: 0;}
+            .slick-prev, .slick-next{width: 60px;}
+            .slick-prev{
+                &:before{left:15%;}
+            }
+        }
+
+    /* /transport */
 
 }
 @media screen and (max-width: 479px){
@@ -290,6 +333,21 @@
         }
 
     /* /features */
+
+    /* transport */
+
+        .transport{
+            .transport-text{
+                li{font-size: 16px;line-height: 22px;margin-bottom: 10px;padding-left: 10px;
+                    &:before{top:10px;}
+                }
+            }
+            .slick-prev, .slick-next{width: 30px;
+                &:before{width: 10px;height: 10px;border-width: 2px;}
+            }
+        }
+
+    /* /transport */
 
 }
 @media screen and (max-width: 375px){
