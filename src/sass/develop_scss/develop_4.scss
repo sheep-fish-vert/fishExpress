@@ -30,7 +30,7 @@
 
 /*our-advantages*/
 .our-advantages{background: url('../images/our-advantages.png') center center no-repeat #f3f8fb;
-    .our-advantages-line{width: 100%;max-width: 900px;float: right;}
+    .our-advantages-line{width: 100%;max-width: 900px;float: right;padding-top: 78px;}
     .our-advantages-line-wrap{position: relative;
         &:after{position: absolute;height: 900px;border:1px solid #a2b0bc;left: 50%;top: 0;content: '';}
     }
