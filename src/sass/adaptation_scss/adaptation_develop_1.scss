@@ -157,6 +157,19 @@
 
     /* /our-quests */
 
+    /* titles */
+
+        .title{font-size:47px;
+            h2{
+                span{
+                    &:after{top:109%;height: 4px;}
+                }
+            }
+        }
+
+    /* /titles */
+
+
 }
 @media screen and (max-width: 479px){
 

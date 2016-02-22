@@ -43,27 +43,29 @@
 
 
     /*our-advantages*/
-    .our-advantages{background: url('../images/our-advantages.png') center bottom no-repeat #f3f8fb;padding-bottom: 538px;
+    .our-advantages{background: url('../images/our-advantages-mobile.png') center bottom no-repeat #f3f8fb;padding-bottom: 538px;
         .our-advantages-line{}
         .our-advantages-line-wrap{
-            &:after{}
+            &:after{height: 750px;left: 50%;top: -20px;}
         }
         .line-item{
             &:nth-child(odd){
-                .line-item-wrap{}
+                .line-item-wrap{width: 50%;}
                 .line-item-num{}
                 .line-item-text{}
             }
             &:nth-child(even){
-                .line-item-wrap{}
+                .line-item-wrap{width: 50%;}
                 .line-item-num{
                 }
-                .line-item-text{
+                .line-item-text{padding-top: 17px;
                     &:after{}
                 }
             }
-            &.item-2{}
-            &.item-3{}
+            &.item-2{padding-top: 0;
+                .line-item-text{padding-right: 9px;}
+            }
+            &.item-3{margin-top: -78px;}
             &.item-4{}
             .line-item-wrap{}
             .line-item-num{}
