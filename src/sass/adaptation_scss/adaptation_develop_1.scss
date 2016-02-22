@@ -41,9 +41,10 @@
         .header{
             .header-logo{max-width: 130px;}
             .header-menu{position: relative;text-align: right;cursor: pointer;width: calc(100% - 425px);padding-top: 0;
-                .header-menu-wrap{display: none;position: absolute;top: calc(100% + 10px);right: 0;border:2px solid #fff;border-radius: 15px;background-color:#67aabf;padding:10px 10px 10px 10px;
+                .header-menu-wrap{display: none;position: absolute;top: calc(100% + 10px);right: 0;border:2px solid #fff;border-radius: 15px;background-color:#67aabf;padding:15px 10px 15px 10px;
                     ul{display: block;
-                        li{
+                        li{margin: 0 0 18px 0;
+                            &:last-child{margin: 0;}
                             a{
                                 &:after{display: none;}
                             }
@@ -77,6 +78,19 @@
 
     /* /header */
 
+    /* our-quests */
+
+        .our-quests{
+            .our-quests-wrap{align-items:flex-start;
+                .our-quest-item{display: block;text-align: center;width: 50%;
+                    .our-quest-item-img{margin-bottom: 10px;}
+                    .our-quest-item-text{padding: 0;}
+                }
+            }
+        }
+
+    /* /ur-quests */
+
 }
 @media screen and (max-width: 767px){
 
@@ -84,7 +98,119 @@
 @media screen and (max-width: 666px){
 
 }
+@media screen and (max-width: 640px){
+
+    /* header */
+
+        .header{
+            .header-menu{width: auto;
+                .header-menu-wrap{width: 220px;}
+                .header-menu-sendwich-main{width: 47px;height: 34px;padding-top: 13px;
+                    span{height: 7px;
+                        &:before, &:after{height: 7px;}
+                        &:before{transform-origin:6px 8px;}
+                        &:after{transform-origin:7px -1px;}
+                    }
+                }
+                .header-menu-sendwich-text{display: none;}
+            }
+            .header-menu-button{display: none;}
+        }
+
+    /* /header */
+
+    /* fish-background */
+
+        .fish-background{background-image:url(../images/fish-background-mobile.jpg);background-position: center 150px;}
+
+    /* /fish-background */
+
+    /* our-quests */
+
+        .our-quests{min-height: 1100px;
+            .title{text-align: center;font-size: 48px;
+                h2{
+                    span{
+                        &:after{height: 4px;}
+                    }
+                }
+            }
+            .our-quests-wrap{display: block;padding-top: 50px;
+                .our-quest-item{width: 100%;margin-bottom: 30px;
+                    &:last-child{margin-bottom: 0;}
+                    .our-quest-item-text{font-size: 36px;line-height: 42px;padding: 0 20px;}
+                }
+            }
+        }
+
+    /* /our-quests */
+
+}
 @media screen and (max-width: 479px){
+
+    /* header */
+
+        .header{
+            .header-logo{width: 70px;}
+            .header-menu{
+                .header-menu-sendwich{
+                    .header-menu-sendwich-main{width: 24px;height: 17px;padding-top:7px;
+                        span{height: 3px;
+                            &:before, &:after{height: 3px;}
+                            &:before{transform-origin:4px 5px;}
+                            &:after{transform-origin:4px -1px;}
+                        }
+                    }
+                }
+            }
+        }
+
+    /* /header */
+
+    /* fish-background */
+
+        .fish-background{background-size: 100% auto;background-position: center 80px;}
+
+    /* /fish-background */
+
+    /* our-quests */
+
+        .our-quests{padding-top: 35px;min-height: 750px;
+            .title{font-size: 24px;
+                h2{
+                    span{
+                        &:after{height: 2px;}
+                    }
+                }
+            }
+            .our-quests-wrap{padding-top: 30px;
+                .our-quest-item{
+                    .our-quest-item-img{
+                        img{max-width: 150px;}
+                    }
+                    .our-quest-item-text{font-size: 18px;line-height: 24px;}
+                }
+            }
+        }
+
+    /* /our-quests */
+
+}
+@media screen and (max-width: 375px){
+
+    /* our-quests */
+
+        .our-quests{min-height: 600px;
+            .our-quests-wrap{
+                .our-quest-item{
+                    .our-quest-item-img{
+                        img{max-width: 110px;}
+                    }
+                }
+            }
+        }
+
+    /* /our-quests */
 
 }
 @media screen and (max-width: 320px){
