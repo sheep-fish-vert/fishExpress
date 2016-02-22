@@ -67,12 +67,13 @@
 .fotogallery{overflow: hidden;background-color: #f3f8fb;padding-top: 31px;padding-bottom: 146px;
     .title{padding-bottom: 65px;}
     .fotogallery-slider{margin: 0 -30px;}
-    .fotogallery-slider-item{text-align: center;
+    .fotogallery-slider-item{text-align: center;margin:0 10px;
         a{display: inline-block;}
-        img{min-height: 266px;}
+        img{}
     }
     .slick-prev{left: 30px;}
     .slick-next {right: 30px;}
+    .slick-dots{bottom: -106px;}
 }
 /*/fotogallery*/
 
