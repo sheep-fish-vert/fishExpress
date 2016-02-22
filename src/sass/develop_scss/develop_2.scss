@@ -42,7 +42,8 @@
     }
 }
 
-.problem-wrap{
+.problem-wrap{padding-top: 74px;
+    .title{padding-bottom: 98px;}
     .texter-list-left{background-image: url(../images/strelka.png); background-position: right center; background-repeat: no-repeat; width: 59%; float: left;
         .content{ padding-top: 60px; padding-bottom: 20px;
             ul{float: right; padding-right: 46px; padding-left: 20px;
