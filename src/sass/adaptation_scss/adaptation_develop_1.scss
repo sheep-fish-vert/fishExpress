@@ -91,6 +91,21 @@
 
     /* /ur-quests */
 
+    /* features */
+
+        .features{
+            .features-wrap{
+                .features-main{
+                    .features-item{
+                        .features-item-title{font-size: 33px;}
+                        .features-text{font-size: 16px;line-height: 20px;}
+                    }
+                }
+            }
+        }
+
+    /* /features */
+
     /* titles */
 
         .title{font-size:62px;
@@ -99,6 +114,7 @@
                     &:after{top:104%;height: 8px;}
                 }
             }
+            h6{font-size: 22px;}
         }
 
     /* /titles */
@@ -146,6 +162,7 @@
                         &:after{height: 4px;}
                     }
                 }
+                h6{font-size: 20px;}
             }
             .our-quests-wrap{display: block;padding-top: 50px;
                 .our-quest-item{width: 100%;margin-bottom: 30px;
@@ -165,9 +182,34 @@
                     &:after{top:109%;height: 4px;}
                 }
             }
+            h6{font-size: 18px;}
         }
 
     /* /titles */
+
+    /* features */
+
+        .features{
+            .features-wrap{
+                .features-main{
+                    &:before{display: none;}
+                    .features-item{padding-bottom: 0;
+                        &.text-left, &.text-right{padding-right:0;padding-left: 0;
+                            .features-item-title{padding-left: 5px;padding-right:5px;font-size: 36px;
+                                &:before{display: none;}
+                                &:after{border-bottom: 2px dotted #a6abad;width: 100%;}
+                            }
+                        }
+                        .features-text{padding-left: 5px;padding-right:5px;font-size: 24px;line-height: 28px;
+                            .features-text-wrap{max-width: 100%;}
+                        }
+                    }
+                    .slick-dots{left: 0;bottom:-75px;}
+                }
+            }
+        }
+
+    /* /features */
 
 
 }
@@ -232,6 +274,23 @@
 
     /* /titles */
 
+    /* features */
+
+        .features{
+            .features-wrap{
+                .features-main{
+                    .features-item{
+                        &.text-left, &.text-right{
+                            .features-item-title{font-size: 22px;line-height: 26px;}
+                        }
+                        .features-text{font-size: 16px;line-height: 22px;}
+                    }
+               }
+            }
+        }
+
+    /* /features */
+
 }
 @media screen and (max-width: 375px){
 
@@ -243,6 +302,7 @@
                     .our-quest-item-img{
                         img{max-width: 110px;}
                     }
+                    .our-quest-item-text{padding: 0;}
                 }
             }
         }

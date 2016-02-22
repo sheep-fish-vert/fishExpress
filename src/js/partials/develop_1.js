@@ -19,10 +19,48 @@ try{
 
     }
 
+    function featuresSlider(){
+
+        function featuresSliderInit(windowWidth){
+
+            var slickTag = $('.features-main');
+
+            if(windowWidth<=640){
+                if(!slickTag.is('.slick-slider')){
+                    slickTag.slick({
+                        slidesToShow: 1,
+                        dots:true,
+                        arrows:false,
+                        draggable:false
+                    });
+                }
+            }
+            else{
+                if(slickTag.is('.slick-slider')){
+                    slickTag.slick('unslick');
+                }
+            }
+        }
+
+        var windowWidth = $(window).width();
+
+        featuresSliderInit(windowWidth);
+
+        $(window).resize(function(){
+
+            windowWidth = $(window).width();
+
+            featuresSliderInit(windowWidth);
+
+        });
+
+    };
+
 
     $(document).ready(function(){
 
         headerMenuSendwich();
+        featuresSlider();
 
     });
 
