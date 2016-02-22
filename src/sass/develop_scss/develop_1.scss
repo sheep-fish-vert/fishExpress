@@ -10,6 +10,25 @@
 
 /* /button */
 
+/* titles */
+
+    .title{font-weight:700;font-size:66px;color:#024f7e;
+        h2{
+            span{position: relative;display: inline-block;padding-bottom: 5px;
+                &:after{content:'';display: block;position: absolute;left:0;top:111%;height: 5px;width: 100%;background-color: #024f7e;}
+            }
+        }
+        h6{font-weight: 500;font-size: 25px;padding-top: 10px;}
+    }
+
+/* /titles */
+
+/* fish-background */
+
+    .fish-background{background-image:url(../images/fish-background.jpg);background-repeat: no-repeat;background-position: center top;}
+
+/* /fish-background */
+
 /* header */
 
     .header{padding:25px 0;position: relative;z-index: 2;
@@ -38,3 +57,15 @@
     }
 
 /* /header */
+
+
+/* our-quests */
+
+    .our-quests{min-height: 800px;padding-top: 50px;
+        .our-quests-wrap{display: flex;justify-content:space-between;align-items:center;padding-top:140px;
+            .our-quest-item{display: flex;align-items:center;padding: 0 5px;}
+            .our-quest-item-text{padding: 0 5px 0 10px;font-weight: 700;font-size: 25px;color:#121212;line-height: 30px;}
+        }
+    }
+
+/* /our-quests */

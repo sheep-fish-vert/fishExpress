@@ -12,6 +12,7 @@ try{
         $(window).resize(function(){
             if($(window).width()>960){
                 $('.header-menu-wrap').removeAttr('style');
+                $('.header-menu-sendwich').removeClass('active');
             }
 
         });
