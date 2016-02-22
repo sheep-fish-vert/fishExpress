@@ -5,7 +5,21 @@ try{
             infinite: true,
             slidesToShow: 5,
             slidesToScroll: 1,
-            dots: true
+            dots: true,
+            responsive: [
+                {
+                  breakpoint: 961,
+                  settings: {
+                    slidesToShow: 3
+                  }
+                },
+                {
+                  breakpoint: 641,
+                  settings: {
+                    slidesToShow: 2
+                  }
+                }
+              ]
         });
     }
 
