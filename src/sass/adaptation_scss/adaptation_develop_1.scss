@@ -91,6 +91,18 @@
 
     /* /ur-quests */
 
+    /* titles */
+
+        .title{font-size:62px;
+            h2{
+                span{padding-bottom: 8px;
+                    &:after{top:104%;height: 8px;}
+                }
+            }
+        }
+
+    /* /titles */
+
 }
 @media screen and (max-width: 767px){
 

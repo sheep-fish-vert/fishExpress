@@ -40,6 +40,39 @@
         .top-block-bottom{padding-top: 31px;}
     }
     /*/top-block*/
+
+
+    /*our-advantages*/
+    .our-advantages{background: url('../images/our-advantages.png') center bottom no-repeat #f3f8fb;padding-bottom: 538px;
+        .our-advantages-line{}
+        .our-advantages-line-wrap{
+            &:after{}
+        }
+        .line-item{
+            &:nth-child(odd){
+                .line-item-wrap{}
+                .line-item-num{}
+                .line-item-text{}
+            }
+            &:nth-child(even){
+                .line-item-wrap{}
+                .line-item-num{
+                }
+                .line-item-text{
+                    &:after{}
+                }
+            }
+            &.item-2{}
+            &.item-3{}
+            &.item-4{}
+            .line-item-wrap{}
+            .line-item-num{}
+            .line-item-text{
+                &:after{}
+            }
+        }
+    }
+    /*/our-advantages*/
 }
 @media screen and (max-width: 767px){
 
