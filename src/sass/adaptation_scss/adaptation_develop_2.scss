@@ -24,12 +24,45 @@
         }
 
     }
+    .problem-wrap {
+        .texter-list-left { float: none; width: 100%; background-image: none; overflow: hidden; padding-bottom: 50px; background-color: #edf3f6; position: relative;
+            .content ul{float: none;}
+            &:after{content: ' '; width: 0; height: 0; border-style: solid; border-width: 75px 0 0 512px;border-color: transparent transparent transparent white; position: absolute; right: 50%; bottom: 0;}
+            &:before{content: ' '; width: 0; height: 0; border-style: solid;border-width: 0 0 75px 512px;border-color: transparent transparent white transparent; position: absolute; left: 50%; bottom: 0;}
+        }
+        .after-right { width: 100%;float: none; padding-bottom: 50px; padding-top: 20px;
+            .text-spec{margin: 0 auto; min-width: 690px; padding-right: 100px;
+                b{font-size: 142px;}
+                i{font-size: 54px;}
+                span{font-size: 104px;}
+                &:after {top: 0;font-size: 399px; line-height: 300px;}
+            }
+        }
+    }
 
 }
 @media screen and (max-width: 992px){
 
 }
 @media screen and (max-width: 767px){
+
+    .footer-wrap .conteiner .all-rigths-are-reserved span{ display: block; line-height: 22px;}
+
+    .problem-wrap {
+        .texter-list-left { float: none; width: 100%; background-image: none; overflow: hidden; background-color: #edf3f6;
+            .content ul li{font-size: 28px;
+                &:after { top: 10px;}
+            }
+        }
+        .after-right { width: 100%;float: none; padding-bottom: 50px; padding-top: 20px;
+            .text-spec{margin: 0 auto; min-width: 690px; padding-right: 100px; min-width: 565px;
+                b{font-size: 114px;}
+                i{font-size: 42px;}
+                span{font-size: 84px;}
+                &:after {top: 0;font-size: 322px; line-height: 244px;}
+            }
+        }
+    }
 
 }
 @media screen and (max-width: 666px){
@@ -47,9 +80,26 @@
 
         }
     }
-
-
 }
+
+@media screen and (max-width: 600px){
+    .problem-wrap .texter-list-left .content ul li {font-size: 15px;padding-left: 20px; margin-bottom: 10px;
+        &:after{width: 5px; height: 5px;top: 5px;}
+    }
+    .problem-wrap {
+        .after-right { width: 100%;float: none; padding-bottom: 50px; padding-top: 20px;
+            .text-spec{margin: 0 auto; max-width: 280px; padding-right: 40px;min-width: 280px;
+                b{font-size: 57px;}
+                i{font-size: 21px;}
+                span{font-size: 42px;}
+                &:after {top: 0;font-size: 182px; line-height: 137px;}
+            }
+        }
+    }
+    .problem-wrap .texter-list-left {padding-bottom: 20px;}
+}
+
+
 @media screen and (max-width: 479px){
     .clients-partners .wrap-client {
         .conteiner-fontan {padding-top: 47px; padding-bottom: 23px;
