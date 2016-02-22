@@ -47,6 +47,7 @@
             }
             .line-item-text{float: right;padding-right: 25px;
                 &:after{left: auto;right: 0;width: 108%;}
+                &:before{left: auto;right: -3px;}
             }
         }
         &.item-2{margin-top: -9px;}
@@ -56,6 +57,7 @@
         .line-item-num{font-size: 80px;color: #bedcee;font-family: 'Geometria';font-weight: 700;margin-bottom: 10px;}
         .line-item-text{font-size: 26px;color: #1f76ab;padding-top: 26px;position: relative;font-weight: 500;
             &:after{content: '';width: 357px;border:1px dotted #a2b0bc;position: absolute;top: 0;left: 0;}
+            &:before{content: '';position: absolute;top: -1px;left: -1px;background-color: rgba(17,49,77,.52);height: 4px;width: 4px;border-radius: 50%;}
         }
     }
 }
