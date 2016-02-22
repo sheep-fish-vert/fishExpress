@@ -18,7 +18,7 @@
                 &:after{content:'';display: block;position: absolute;left:0;top:111%;height: 5px;width: 100%;background-color: #024f7e;}
             }
         }
-        h6{font-weight: 500;font-size: 25px;padding-top: 10px;}
+        h6{font-weight: 500;font-size: 25px;padding-top: 20px;}
     }
 
 /* /titles */
@@ -57,7 +57,6 @@
     }
 
 /* /header */
-
 
 /* our-quests */
 
@@ -102,3 +101,21 @@
     }
 
 /* /features */
+
+/* slick-dots */
+
+    .slick-slider{
+        .slick-dots{
+            li{
+                button{width: 12px;height: 12px;border-radius: 50%;border:1px solid transparent;
+                    background-color: #000;
+                    &:before{display: none;}
+                }
+                &.slick-active{
+                    button{border-color:#000;background-color:transparent;}
+                }
+            }
+        }
+    }
+
+/* /slick-dots */
