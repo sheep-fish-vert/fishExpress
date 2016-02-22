@@ -1,7 +1,16 @@
 try{
 
-    $(document).ready(function(){
+    function fotogalerySlider(){
+        $('.fotogallery-slider-wrap').slick({
+            infinite: true,
+            slidesToShow: 5,
+            slidesToScroll: 1,
+            dots: true
+        });
+    }
 
+    $(document).ready(function(){
+        fotogalerySlider();
     });
 
     $(window).load(function(){
