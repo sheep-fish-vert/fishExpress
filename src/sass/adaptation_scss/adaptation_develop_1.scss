@@ -91,6 +91,21 @@
 
     /* /ur-quests */
 
+    /* features */
+
+        .features{
+            .features-wrap{
+                .features-main{
+                    .features-item{
+                        .features-item-title{font-size: 33px;}
+                        .features-text{font-size: 16px;line-height: 20px;}
+                    }
+                }
+            }
+        }
+
+    /* /features */
+
 }
 @media screen and (max-width: 767px){
 
