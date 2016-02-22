@@ -99,6 +99,40 @@
         }
     }
     /*/top-block*/
+
+    /*our-advantages*/
+    .our-advantages{padding-bottom: 426px;background-position: 90% bottom;overflow: hidden;
+        .our-advantages-line{padding-top: 95px;}
+        .our-advantages-line-wrap{
+            &:after{}
+        }
+        .line-item{
+            &:nth-child(odd){
+                .line-item-wrap{}
+                .line-item-num{}
+                .line-item-text{}
+            }
+            &:nth-child(even){
+                .line-item-wrap{}
+                .line-item-num{
+                }
+                .line-item-text{
+                    &:after{}
+                }
+            }
+            &.item-2{
+                .line-item-text{text-align: right;padding-top: 25px;}
+            }
+            &.item-3{margin-top: -115px;}
+            &.item-4{margin-top: 43px;}
+            .line-item-wrap{}
+            .line-item-num{}
+            .line-item-text{font-size: 24px;line-height: 27px;padding-top: 23px;
+                &:after{}
+            }
+        }
+    }
+    /*/our-advantages*/
 }
 @media screen and (max-width: 479px){
     /*top-block*/
@@ -129,6 +163,40 @@
         }
     }
     /*/top-block*/
+
+    /*our-advantages*/
+    .our-advantages{padding-bottom: 175px;background-size: contain;
+        .our-advantages-line{padding-top: 45px;}
+        .our-advantages-line-wrap{
+            &:after{height: 447px;}
+        }
+        .line-item{
+            &:nth-child(odd){
+                .line-item-wrap{}
+                .line-item-num{padding-left: 9px;}
+                .line-item-text{padding-left: 11px;}
+            }
+            &:nth-child(even){
+                .line-item-wrap{}
+                .line-item-num{
+                }
+                .line-item-text{padding-top: 9px;padding-right: 11px;text-align: right;
+                    &:after{}
+                }
+            }
+            &.item-2{
+                .line-item-text{}
+            }
+            &.item-3{margin-top: -80px;}
+            &.item-4{margin-top: 6px;}
+            .line-item-wrap{}
+            .line-item-num{margin-bottom: 1px;font-size: 43px;}
+            .line-item-text{font-size: 12px;line-height: 18px;padding-top: 7px;
+                &:after{}
+            }
+        }
+    }
+    /*/our-advantages*/
 }
 @media screen and (max-width: 320px){
 
