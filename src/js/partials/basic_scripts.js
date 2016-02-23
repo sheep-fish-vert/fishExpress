@@ -125,9 +125,15 @@ function headeButer(menuMobile,toggleMenu){
     }
 }
 
+function scrollReveal(){
+    window.sr = ScrollReveal({ reset: false });
+
+    sr.reveal( '.scrollAnim', { duration: 200 } );
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
-
+    scrollReveal();
     $('.fancybox').fancybox({
         autoResize:true,
         fitToView:true,
