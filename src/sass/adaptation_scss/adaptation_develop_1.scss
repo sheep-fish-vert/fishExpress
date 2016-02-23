@@ -83,8 +83,9 @@
         .our-quests{
             .our-quests-wrap{align-items:flex-start;
                 .our-quest-item{display: block;text-align: center;width: 50%;
+                    &:first-child{width: 50%;}
                     .our-quest-item-img{margin-bottom: 10px;}
-                    .our-quest-item-text{padding: 0;}
+                    .our-quest-item-text{padding: 0;max-width: 100%;}
                 }
             }
         }
@@ -97,7 +98,7 @@
             .features-wrap{
                 .features-main{
                     .features-item{
-                        .features-item-title{font-size: 33px;}
+                        .features-item-title{font-size: 33px;line-height: 42px;}
                         .features-text{font-size: 16px;line-height: 20px;}
                     }
                 }
@@ -195,6 +196,7 @@
             }
             .our-quests-wrap{display: block;padding-top: 50px;
                 .our-quest-item{width: 100%;margin-bottom: 30px;
+                    &:first-child{width: 100%;}
                     &:last-child{margin-bottom: 0;}
                     .our-quest-item-text{font-size: 36px;line-height: 42px;padding: 0 20px;}
                 }
