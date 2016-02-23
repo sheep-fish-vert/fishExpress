@@ -162,6 +162,9 @@
     }
     /*/fotogallery*/
 }
+@media screen and (max-width: 629px){
+    .our-advantages .our-advantages-line-wrap:after{height: 950px;}
+}
 @media screen and (max-width: 479px){
     /*top-block*/
     .top-block{padding-bottom: 57px;
