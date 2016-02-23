@@ -131,7 +131,8 @@
         .transport-slider-wrap{overflow: hidden;
             .transport-slider-main{margin: 0 -500px;
                 .transport-slider-item{padding: 0 20px;
-                    a{display: block;}
+                    a{display: block;overflow: hidden;}
+                    img{max-width: none;}
                 }
                 .slick-prev{left: 500px;}
                 .slick-next{right: 500px;}
