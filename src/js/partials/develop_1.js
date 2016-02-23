@@ -68,7 +68,8 @@ try{
                     breakpoint: 961,
                     settings: {
                         centerMode:false,
-                        slidesToShow:1
+                        slidesToShow:1,
+                        adaptiveHeight: true
                     }
                 }
             ]

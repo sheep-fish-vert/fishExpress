@@ -131,7 +131,7 @@
                 .transport-slider-main{margin: 0 0;
                     .transport-slider-item{padding: 0;text-align: center;
                         &.slick-slide{
-                            img{margin:0 auto;}
+                            img{margin:0 auto;max-width: 100%;}
                         }
                     }
                     .slick-prev{left: 0px;}
@@ -242,7 +242,7 @@
 
     /* transport */
 
-        .transport{min-height: 0;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;background-position: center 100%;
+        .transport{min-height: 1060px;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;background-position: center 100%;
             .transport-text{
                 li{font-size: 30px;line-height: 34px;}
             }
@@ -346,6 +346,12 @@
                 &:before{width: 10px;height: 10px;border-width: 2px;}
             }
         }
+
+    /* /transport */
+
+    /* transport */
+
+        .transport{min-height: 660px;}
 
     /* /transport */
 
