@@ -57,13 +57,21 @@
     }
     @media screen and (max-width: 480px){
         .our-fish{
-            .title{ font-size: 24.5px; }
-            .mbox{    padding: 0px 52px 0 52px;}
+            .title{ font-size: 24.5px; padding: 5px 0 0 0;
+                h2{padding-bottom: 9px;
+                    &:after{height: 2px;    left: 0px;}
+                }
+            }
+            .mbox{       padding: 0px 27px 0 27px;}
             .mobile{
-                .content{ padding-top: 70px; padding-bottom: 11px;}
-                .txt{font-size: 14.5px;
-                    p:first-child{font-size:18px;    }
+                .content{    padding-top: 36px; padding-bottom: 11px;}
+                .img{width: 132px; height: 132px;
+                    img{    max-width: 83%;}
+                }
+                .txt{font-size: 14.5px; padding-top: 10px;   line-height: 18px;  padding-top: 18px;
+                    p:first-child{font-size:18px; line-height: 18px;padding-bottom: 7px;}
                  }
+                 .item{    margin-bottom: 23px;}
 
             }
         }
