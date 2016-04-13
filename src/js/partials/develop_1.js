@@ -13,8 +13,9 @@ try{
             if($(window).width()>960){
                 $('.header-menu-wrap').removeAttr('style');
                 $('.header-menu-sendwich').removeClass('active');
-            }
-            missClick();
+
+            }else{ missClick();}
+
         });
 
     }
@@ -96,7 +97,10 @@ try{
         headerMenuSendwich();
         featuresSlider();
         transportSlider();
-        missClick();
+        if($(window).width()<960){
+
+                missClick();
+            }
 
     });
 
