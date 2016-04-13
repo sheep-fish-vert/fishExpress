@@ -5,6 +5,7 @@ try{
             infinite: true,
             slidesToShow: 5,
             slidesToScroll: 1,
+            swipeToSlide:true,
             dots: true,
             responsive: [
                 {

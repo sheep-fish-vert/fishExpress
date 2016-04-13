@@ -8,21 +8,22 @@
         .mobile{display: block;
             .content{  display: block; padding-top: 70px; padding-bottom: 59px;}
 
-            .img{width: 263px; height: 263px; border-radius: 50%; border:2px solid #6fb4c8; position: relative; display:inline-block; margin: 0 auto; position: relative; margin-bottom: 26px; float:left;     margin-right: 41px;
+            .img{width: 263px; height: 263px; border-radius: 50%; border:2px solid #6fb4c8; position: relative; display:inline-block; margin: 0 auto; position: absolute; bottom: 0; left: 0;
                 &:before,
                 &:after{display: none;}
 
             }
-            .txt{color:#000; font:400 16.67px/20px 'Geometria'; max-width: none; padding-top: 58px;
+            .txt{color:#000; font:400 16.67px/20px 'Geometria'; max-width: none; padding-top: 58px; margin-bottom: 26px; margin-left: 304px; padding-bottom: 20px;
                 p:first-child{font:700 33px/33px 'Geometria';    padding-bottom: 18px;}
                 b{font-weight: 700;}
              }
             .liner{display: none; }
 
-            .item{text-align: left;   display: block; height: 263px; position: relative; margin-bottom: 40px;
+            .item{text-align: left;   display: block; position: relative; margin-bottom: 40px; min-height: 263px;
                 &:before{content: '';display: block; width: calc(100% - 131px); height: 2px; left:131px; bottom: 0; background-color: #6fb4c8;position: absolute;}
                 &.right{text-align: right;
-                    .img{float:right;    margin-right: 0;     margin-left: 41px;}
+                    .img{left: auto; right: 0;}
+                    .txt{margin-left: 0;margin-right: 304px;}
                     &:before{left:auto; right: 131px;}
                 }
 
@@ -41,15 +42,15 @@
             .mobile{display: block;
                 .content{ padding-top: 70px; padding-bottom: 11px;}
 
-                .img{ margin-bottom: 0; float:none; display: block;     margin-right:auto;
+                .img{ margin-bottom: 0; position: relative; display: block;     margin-right:auto;
                 }
-                .txt{font-size: 28px;     padding-top: 40px; line-height: 34px;
+                .txt{font-size: 28px;     padding-top: 40px; line-height: 34px; margin-left: 0; margin-right: 0;
                     p:first-child{font-size:36px;     padding-bottom: 16px;}
                  }
                 .item{ height: auto; margin-bottom: 59px;
                     &:before{display: none;}
                     &.right{text-align: left;
-                        .img{float:none; margin-left: auto; margin-right: auto;}
+                        .txt{ margin-left: 0; margin-right: 0;}
                     }
                 }
             }

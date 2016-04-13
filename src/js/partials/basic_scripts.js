@@ -39,9 +39,7 @@ function oneHeightItems(){
     oneHeight($('.features-item-title'));
 
     $(window).resize(function(){
-
         oneHeight($('.features-item-title'));
-
     });
 }
 
@@ -79,10 +77,10 @@ function animationBlock(item){
 
 /*GO TO href*/
 function goTo(){
-    $('.header-menu a').click(function(e){
+    $('a[data-id]').click(function(e){
         e.preventDefault();
-        var href = $(this).attr('href');
-        var target = $(href).offset().top-65;
+        var href = $(this).attr('data-id');
+        var target = $(href).offset().top;
         $(scroller).animate({scrollTop:target},500);
     });
 }
@@ -143,7 +141,7 @@ $(document).ready(function() {
 
     $('.footer_placeholder').height($('.footer').outerHeight());
 
-    //goTo();
+    goTo();
     //animationBlock($('.setion-animate'));
 });
 
