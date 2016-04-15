@@ -35,10 +35,13 @@
 
 }
 @media screen and (max-width: 960px){
-
+    .title h2 {
+        letter-spacing: -2px;
+    }
     /* header */
 
         .header{
+            .mbox{padding: 0 49px;}
             .header-logo{max-width: 130px;}
             .header-menu{position: relative;text-align: right;cursor: pointer;width: calc(100% - 425px);padding-top: 0;
                 .header-menu-wrap{display: none;position: absolute;top: calc(100% + 10px);right: 0;border:2px solid #fff;border-radius: 15px;background-color:#67aabf;padding:15px 10px 15px 10px;
@@ -80,7 +83,8 @@
 
     /* our-quests */
 
-        .our-quests{
+        .our-quests{    padding-top: 43px;
+            .mbox{padding: 0 49px;}
             .our-quests-wrap{align-items:flex-start;
                 .our-quest-item{display: block;text-align: center;width: 50%;
                     &:first-child{width: 50%;}
@@ -94,7 +98,8 @@
 
     /* features */
 
-        .features{
+        .features{padding-top: 27px;     padding-bottom: 128px;
+            .mbox{padding: 0 49px;}
             .features-wrap{
                 .features-main{
                     .features-item{
@@ -159,6 +164,7 @@
     /* header */
 
         .header{
+            .mbox {    padding: 0 59px;}
             .header-menu{width: auto;
                 .header-menu-wrap{width: 220px;}
                 .header-menu-sendwich-main{width: 47px;height: 34px;padding-top: 13px;
@@ -182,8 +188,10 @@
     /* /fish-background */
 
     /* our-quests */
-
-        .our-quests{min-height: 1100px;
+.title h2 {
+    letter-spacing: 0px;
+}
+        .our-quests{min-height: 1100px; padding-top: 68px;
             .title{text-align: center;font-size: 48px;
                 h2{
                     span{
@@ -192,10 +200,11 @@
                 }
                 h6{font-size: 20px;}
             }
-            .our-quests-wrap{display: block;padding-top: 50px;
+            .our-quests-wrap{display: block;padding-top: 54px;
                 .our-quest-item{width: 100%;margin-bottom: 30px;
                     &:first-child{width: 100%;}
                     &:last-child{margin-bottom: 0;}
+                    .our-quest-item-img {    margin-bottom: 26px;}
                     .our-quest-item-text{font-size: 36px;line-height: 42px;padding: 0 20px;}
                 }
             }
@@ -211,19 +220,19 @@
                     &:after{top:109%;height: 4px;}
                 }
             }
-            h6{font-size: 18px;}
+            h6{font-size: 28px;}
         }
 
     /* /titles */
 
     /* features */
 
-        .features{
+        .features{padding-top: 43px;
             .features-wrap{
                 .features-main{
                     &:before{display: none;}
                     .features-item{padding-bottom: 0;
-                        &.text-left, &.text-right{padding-right:0;padding-left: 0;
+                        &.text-left, &.text-right{padding-right:0;padding-left: 0; text-align: left;
                             .features-item-title{padding-left: 5px;padding-right:5px;font-size: 36px;
                                 &:before{display: none;}
                                 &:after{border-bottom: 2px dotted #a6abad;width: 100%;}
@@ -242,8 +251,8 @@
 
     /* transport */
 
-        .transport{min-height: 1060px;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;background-position: center 100%;
-            .transport-text{
+        .transport{min-height: 1047px;background-size: 100% auto;padding-bottom:70px;position: relative;z-index: 1;background-position: center 100%;
+            .transport-text{margin-bottom: 72px;
                 li{font-size: 30px;line-height: 34px;}
             }
             .transport-slider-wrap{padding: 0;}
@@ -260,7 +269,8 @@
 
     /* header */
 
-        .header{
+        .header{    padding: 12px 0;
+            .mbox {    padding: 0 30px;}
             .header-logo{width: 70px;}
             .header-menu{
                 .header-menu-sendwich{
@@ -285,7 +295,8 @@
 
     /* our-quests */
 
-        .our-quests{padding-top: 35px;min-height: 750px;
+        .our-quests{padding-top: 33px;min-height: 722px;
+            .mbox {    padding: 0px 30px;}
             .title{font-size: 24px;
                 h2{
                     span{
@@ -293,12 +304,12 @@
                     }
                 }
             }
-            .our-quests-wrap{padding-top: 30px;
-                .our-quest-item{
-                    .our-quest-item-img{
+            .our-quests-wrap{padding-top: 59px;
+                .our-quest-item{margin-bottom: 8px;
+                    .our-quest-item-img{margin-bottom: 0px;
                         img{max-width: 150px;}
                     }
-                    .our-quest-item-text{font-size: 18px;line-height: 24px;}
+                    .our-quest-item-text{font-size: 18px;line-height: 21px;}
                 }
             }
         }
@@ -307,27 +318,30 @@
 
     /* titles */
 
-        .title{font-size: 24px;;
+        .title{font-size: 24px;
             h2{
                 span{padding-bottom: 7px;
                     &:after{top:100%;height: 2px;}
                 }
             }
+            h6 {      padding-top: 10px;  font-size: 14px;}
         }
 
     /* /titles */
 
     /* features */
 
-        .features{
+        .features{     padding-top: 0; padding-bottom: 31px;
+            .mbox {   padding: 0 30px;}
             .features-wrap{
                 .features-main{
                     .features-item{
                         &.text-left, &.text-right{
-                            .features-item-title{font-size: 22px;line-height: 26px;}
+                            .features-item-title{font-size: 18px;line-height:22px;}
                         }
-                        .features-text{font-size: 16px;line-height: 22px;}
+                        .features-text{font-size: 12px;line-height: 16px;}
                     }
+                    .slick-dots {    bottom: -34px;}
                }
             }
         }
@@ -336,9 +350,9 @@
 
     /* transport */
 
-        .transport{padding-bottom: 47px;background-position: center 90%;
-            .transport-text{
-                li{font-size: 16px;line-height: 22px;margin-bottom: 10px;padding-left: 10px;
+        .transport{padding-bottom: 47px;background-position: center 90%;min-height: 639px;
+            .transport-text{padding-top: 21px;
+                li{font-size: 16px;line-height: 19px;margin-bottom: 10px;padding-left: 10px;
                     &:before{top:10px;}
                 }
             }
@@ -351,20 +365,24 @@
 
     /* transport */
 
-        .transport{min-height: 660px;}
 
     /* /transport */
+    .slick-slider .slick-dots li button {
+    padding: 0;
+    width: 5px;
+    height:5px;
+}
 
 }
 @media screen and (max-width: 375px){
 
     /* our-quests */
 
-        .our-quests{min-height: 600px;
+        .our-quests{min-height: 570px;
             .our-quests-wrap{
                 .our-quest-item{
                     .our-quest-item-img{
-                        img{max-width: 110px;}
+                        img{max-width: 112px;}
                     }
                     .our-quest-item-text{padding: 0;}
                 }

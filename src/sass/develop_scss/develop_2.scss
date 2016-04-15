@@ -7,7 +7,9 @@
             input{text-align: right;}
         }
         .conteiner-fontan{float: left; width: 50%; color: white; padding-top: 52px; padding-bottom: 52px;
-            .title-text{font-family: "Geometria", sans-serif; font-size: 69px; font-weight: 700;line-height: 82px;}
+            .title-text{font-family: "Geometria", sans-serif; font-size: 69px; font-weight: 700;line-height: 82px;
+                h3{max-width: 470px;    display: inline-block;}
+            }
             .aftertext{font-family: "Geometria", sans-serif; font-size: 23px; font-weight: 400;     padding-top: 14px; line-height: 28px;}
         }
         form{ padding-top: 13px;

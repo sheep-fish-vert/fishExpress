@@ -1,3 +1,30 @@
+.fancybox-nav span{
+    width: 20px;
+    height: 20px;
+    border-right: 3px solid white;
+    border-bottom: 3px solid white;
+    transform: rotate(-45deg) translate(-50%, -50%);
+    content: '';
+    display: block;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    opacity: 1;
+    transition: all ease .2s;
+    background-image: none;
+    visibility: visible;
+}
+.fancybox-prev span{transform: rotate(135deg);}
+.fancybox-nav{width: 90px;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.62);
+    z-index: 5;
+    transition: all ease .2s;
+}
+.fancybox-close{display: none;}
+.fancybox-title-float-wrap{right: auto; background-color: #fff; width: 100%; padding: 20px;}
+.fancybox-title-float-wrap .child{margin-right: 0; color: #00446d; background-color: transparent; font-size: 16px; font-family: 'Geometria'; font-weight: 400;     text-shadow: none; white-space: normal; max-width: 650px; }
+
 .header-top-block-wrap{background: linear-gradient(to right, rgba(39,166,188,1) 0%,rgba(97,211,229,1) 25%,rgba(128,235,251,1) 50%,rgba(97,211,229,1) 75%,rgba(39,166,188,1) 100%);filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#27a6bc', endColorstr='#27a6bc',GradientType=1 );
 }
 /*top-block*/
@@ -70,9 +97,11 @@
 .fotogallery{overflow: hidden;background-color: #f3f8fb;padding-top: 31px;padding-bottom: 146px;
     .title{padding-bottom: 65px;}
     .fotogallery-slider{margin: 0 -30px;}
-    .fotogallery-slider-item{text-align: center;margin:0 10px;
+    .fotogallery-slider-item{text-align: center;margin:0 10px; max-height: 267px; position: relative;
         a{display: inline-block;}
-        img{}
+        &:before{content: ''; display: block;position: absolute; left:calc(50% - 19px); top:calc(50% - 19px);  background-repeat: no-repeat; background-position: center; background-image: url(../images/zoom.png); opacity: 0; transition:opacity 500ms;width: 37px;height: 37px; cursor: pointer;pointer-events:none;}
+        &:hover:before{opacity: 1;}
+        &.video:before{background-image: url(../images/video.png);width: 57px;height: 57px; left:calc(50% - 29px); top:calc(50% - 29px);}
     }
     .slick-prev{left: 30px;}
     .slick-next {right: 30px;}

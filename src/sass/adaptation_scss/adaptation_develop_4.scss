@@ -12,10 +12,10 @@
 }
 @media screen and (max-width: 1050px){
     /*our-advantages*/
-    .our-advantages{background: url('../images/our-advantages-mobile.png') center bottom no-repeat #f3f8fb;padding-bottom: 538px;
+    .our-advantages{background: url('../images/our-advantages-mobile.png') center bottom no-repeat #f3f8fb;padding-bottom: 455px;
         .our-advantages-line{}
         .our-advantages-line-wrap{
-            &:after{height: 750px;left: 50%;top: -20px;}
+            &:after{height: 100%;left: 50%;top: -20px;}
         }
         .line-item{
             &:nth-child(odd){
@@ -40,6 +40,7 @@
             .line-item-num{}
             .line-item-text{
                 &:after{}
+                p:first-child {font-size: 34px;}
             }
         }
     }
@@ -47,7 +48,8 @@
 }
 @media screen and (max-width: 960px){
     /*top-block*/
-    .top-block{padding-top: 3px;padding-bottom: 83px;
+    .top-block{    padding-top: 16px;padding-bottom: 119px;
+        .mbox{padding: 0 49px;}
         .top-block-wrap{
             .top-block-row{
                 .top-block-tel{padding-right: 3.5%;padding-top: 14px;
@@ -66,8 +68,8 @@
             }
 
         }
-        .big_fish{position: absolute;z-index: 1;top: 10%;left: 55%;
-            img{max-width: none;max-height: 290px;}
+        .big_fish{position: absolute;z-index: 1;top: 189px;    left: 56%;
+            img{max-width: none;max-height: 526px;}
         }
         .top-block-bottom{padding-top: 31px;}
     }
@@ -87,16 +89,26 @@
         .slick-dots{bottom: -75px;}
     }
     /*/fotogallery*/
+    /*with-us*/
+        .with-us{padding: 38px 0; background-size: cover;
+            .right{float: none; max-width: none;}
+            .item{text-align: center; display: block;}
+            .left{max-width: none;
+                 p:first-child{padding-bottom: 29px;}
+            }
+        }
+    /*END with-us*/
 }
 @media screen and (max-width: 767px){
 
 }
 @media screen and (max-width: 666px){
     /*top-block*/
-    .top-block{padding-top: 3px;padding-bottom: 117px;
+    .top-block{padding-top: 9px;padding-bottom: 117px;
+        .mbox{    padding: 0px 57px;}
         .top-block-wrap{
             .top-block-row{
-                .top-block-procent{padding-top: 85px;padding-left: 3%;
+                .top-block-procent{padding-top: 116px;padding-left: 3%;
                     b{font-size: 94px;font-family: 'Geometria';font-weight: 700;margin-bottom: 7px;display: inline-block;}
                 }
             }
@@ -109,11 +121,14 @@
                 .button{border: 3px solid #fff;max-width: 298px;font-size: 22px;line-height: 58px;}
             }
         }
+         .big_fish{top: 155px;    left: 52%;
+             img {    max-width: none;    max-height: 457px;}
+         }
     }
     /*/top-block*/
 
     /*our-advantages*/
-    .our-advantages{padding-bottom: 426px;background-position: 90% bottom;overflow: hidden;background-color: #fff;
+    .our-advantages{padding-bottom: 305px;background-position: 90% bottom;overflow: hidden;background-color: #fff;
         .our-advantages-line{padding-top: 95px;}
         .our-advantages-line-wrap{
             &:after{}
@@ -139,15 +154,16 @@
             &.item-4{margin-top: 43px;}
             .line-item-wrap{}
             .line-item-num{}
-            .line-item-text{font-size: 24px;line-height: 27px;padding-top: 23px;
+            .line-item-text{font-size: 20px;line-height: 23px;padding-top: 23px;
                 &:after{}
+                p:first-child{font-size: 32px; line-height: 32px;}
             }
         }
     }
     /*/our-advantages*/
 
     /*fotogallery*/
-    .fotogallery{padding-bottom: 70px;background-color: transparent;padding-top: 0px;position: relative;z-index: 0;    margin-top: -57px;
+    .fotogallery{padding-bottom: 90px;background-color: transparent;padding-top: 0px;position: relative;z-index: 0;    margin-top: -57px;
         .title{padding-bottom: 53px;}
         .fotogallery-slider{margin: 0 20px;}
         .fotogallery-slider-item{text-align: center;margin:0 10px;
@@ -159,20 +175,31 @@
         .slick-dots{bottom: -65px;}
     }
     /*/fotogallery*/
+    /*with-us*/
+        .with-us{padding: 32px 0 38px;
+            .button {    border-width: 6px; height: 69px; border-radius: 33px;}
+            .left{
+                 p{ font-size: 64px; line-height: 64px; letter-spacing: 3px;
+                    &:first-child{font-size: 48px; line-height: 48px; padding-bottom: 33px;}
+                }
+            }
+        }
+    /*END with-us*/
 }
 @media screen and (max-width: 629px){
     .our-advantages .our-advantages-line-wrap:after{height: 950px;}
 }
 @media screen and (max-width: 530px){
     /*top-block*/
-    .top-block{padding-bottom: 57px;
+    .top-block{padding-bottom: 57px;     padding-top: 0px;
+        .mbox {    padding: 0 29px;}
         .top-block-wrap{border: 4px solid white;min-height: auto;border-left: none;
             .top-block-row{
                 .top-block-tel{padding-top: 8px;
                     p{font-size: 12px;}
                     span{font-size: 10px;padding-top: 8px;}
                 }
-                .top-block-procent{padding-top: 41px;padding-left: 0;margin-bottom: 0px;
+                .top-block-procent{padding-top: 61px;padding-left: 0;margin-bottom: 0px;
                     b{font-size: 45px;    margin-left: 0px;}
                     p{font-size: 8px;}
                 }
@@ -187,8 +214,8 @@
                 .button{border: 2px solid #fff;max-width: 146px;font-size: 11px;line-height: 32px;height: 35px;}
             }
         }
-        .big_fish{
-            img{max-height: 132px;}
+        .big_fish{top: 62px;    left: 49%;
+            img{max-height: 254px;}
         }
     }
     /*/top-block*/
@@ -222,6 +249,9 @@
             .line-item-wrap{}
             .line-item-num{margin-bottom: 1px;font-size: 43px;}
             .line-item-text{font-size: 12px;line-height: 18px;padding-top: 7px;
+                p{font-size: 10px;line-height: 14px;
+                    &:first-child {    font-size: 16px;    line-height: 16px;}
+                }
                 &:after{}
             }
         }
@@ -229,7 +259,7 @@
     /*/our-advantages*/
 
     /*fotogallery*/
-    .fotogallery{padding-bottom: 30px;
+    .fotogallery{padding-bottom: 30px; margin-bottom: 0;
         .title{padding-bottom: 23px;}
         .fotogallery-slider{}
         .fotogallery-slider-item{
@@ -241,6 +271,18 @@
         .slick-dots{bottom: -40px;}
     }
     /*/fotogallery*/
+     /*with-us*/
+        .with-us{padding: 16px 0 18px;
+            .button {     max-width: 149px;   border-width: 3px; font-size: 10px; line-height: 31px;    height: 34px;}
+            .left{
+                 p{ font-size: 32px; line-height: 32px; letter-spacing: 2px;
+                    b{padding: 0 3px;}
+                    &:first-child{font-size: 24px; line-height: 24px; padding-bottom: 16px;    letter-spacing: 0.5px;}
+                }
+            }
+            .right{    padding-top: 20px;}
+        }
+    /*END with-us*/
 }
 @media screen and (max-width: 320px){
 

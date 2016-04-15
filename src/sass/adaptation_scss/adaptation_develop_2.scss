@@ -24,11 +24,15 @@
         }
 
     }
-    .problem-wrap {
+    .problem-wrap {    padding-top: 0px;
+        .mbox{padding: 0px 49px;}
         .texter-list-left { float: none; width: 100%; background-image: none; overflow: hidden; padding-bottom: 50px; background-color: #edf3f6; position: relative;
             .content ul{float: none;}
             &:after{content: ' '; width: 0; height: 0; border-style: solid; border-width: 75px 0 0 512px;border-color: transparent transparent transparent white; position: absolute; right: 50%; bottom: 0;}
             &:before{content: ' '; width: 0; height: 0; border-style: solid;border-width: 0 0 75px 512px;border-color: transparent transparent white transparent; position: absolute; left: 50%; bottom: 0;}
+        }
+        .texter-list-left {
+            .content ul{padding-left: 66px;}
         }
         .after-right { width: 100%;float: none; padding-bottom: 50px; padding-top: 20px;
             .text-spec{margin: 0 auto; min-width: 690px; padding-right: 100px;
@@ -42,13 +46,35 @@
 
 }
 @media screen and (max-width: 992px){
-
+    .problem-wrap {
+        .title {
+            padding-bottom: 101px;
+        }
+        .texter-list-left .content {    padding-top: 52px;}
+    }
+    .clients-partners .wrap-client {
+        .conteiner-fontan{    padding-top: 64px;
+             .title-text{
+                h3{display: block;max-width: none;}
+            }
+        }
+    }
+    .footer-wrap{padding-top: 69px;}
 }
 @media screen and (max-width: 767px){
 
-    .footer-wrap .conteiner .all-rigths-are-reserved span{ display: block; line-height: 22px;}
-
+    .footer-wrap{padding-top: 112px;
+        .conteiner{
+            .socials a{    margin: 0 9px;
+                 img{width: 47px;}
+             }
+            .all-rigths-are-reserved{    padding-top: 27px;
+                 span{ display: block; line-height: 52px; font-size: 30px;}
+             }
+        }
+    }
     .problem-wrap {
+        .title{padding-bottom: 47px;}
         .texter-list-left { float: none; width: 100%; background-image: none; overflow: hidden; background-color: #edf3f6;
             .content ul li{font-size: 28px;
                 &:after { top: 10px;}
@@ -102,17 +128,38 @@
 
 @media screen and (max-width: 479px){
     .clients-partners .wrap-client {
-        .conteiner-fontan {padding-top: 47px; padding-bottom: 23px;
-            .title-text{font-size: 34px; line-height:42px;}
-            .aftertext{font-size: 15px; line-height: 20px;}
-            form {
+        .conteiner-fontan {padding-top: 38px; padding-bottom: 23px;
+            .title-text{font-size: 34px; line-height:28px;}
+            .aftertext{font-size: 15px; line-height: 18px;}
+            form {padding-top: 3px;
                 input {max-width: 235px; text-align: left; font-size: 13px; height: 26px;}
                 .button { font-size: 16px; max-width: 230px; background-color: white; font-size: 15px; height: 50px; line-height: 46px;}
+                .contact-form-item {    padding-bottom: 11px;}
             }
+            .button{border-radius: 15px;}
 
         }
     }
-
+    .problem-wrap{
+        .title {
+            padding-bottom: 22px;
+        }
+        .texter-list-left .content{    padding-top: 22px;
+             ul{ padding-left: 29px;
+                li{    padding-left: 10px;}
+            }
+        }
+    }
+    .footer-wrap{padding-top: 47px;
+        .conteiner{
+            .socials a{    margin: 0 4px;
+                 img{width: 24px;}
+             }
+            .all-rigths-are-reserved{    padding-top: 14px; padding-bottom: 11px;
+                 span{ line-height: 27px; font-size: 15.5px;}
+             }
+        }
+    }
 }
 @media screen and (max-width: 320px){
 
