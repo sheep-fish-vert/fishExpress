@@ -114,7 +114,7 @@
             }
             .top-block-center{letter-spacing: -1px;font-size: 74px;max-width: 97%; padding-top: 11px;
                 &:after,&:before{}
-                &:before{top: calc(100% + 7px);}
+                &:before{top: 100%;}
                 span{font-size: 38px;padding-top: 2px;}
             }
             .top-block-bottom{
