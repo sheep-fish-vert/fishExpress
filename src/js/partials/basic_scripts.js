@@ -126,7 +126,7 @@ function headeButer(menuMobile,toggleMenu){
 function scrollReveal(){
     window.sr = ScrollReveal({ reset: false });
 
-    sr.reveal( '.scrollAnim', { duration: 200 } );
+    sr.reveal( '.scrollAnim', { duration: 600 } );
 }
 
 /* DOCUMENT READY  */
