@@ -53,7 +53,7 @@
         .top-block-wrap{
             .top-block-row{
                 .top-block-tel{padding-right: 3.5%;padding-top: 14px;
-                    p{font-size: 29px;}
+                    a{font-size: 29px;}
                     span{padding-top: 12px;}
                 }
                 .top-block-procent{padding-top: 147px;padding-left: 8%;
@@ -191,12 +191,15 @@
 }
 @media screen and (max-width: 530px){
     /*top-block*/
+    .fancybox-nav {
+    width: 40px;
+}
     .top-block{padding-bottom: 57px;     padding-top: 0px;
         .mbox {    padding: 0 29px;}
-        .top-block-wrap{border: 4px solid white;min-height: auto;border-left: none;
+        .top-block-wrap{border: 4px solid white;min-height: 1px;border-left: none;
             .top-block-row{
                 .top-block-tel{padding-top: 8px;
-                    p{font-size: 12px;}
+                    a{font-size: 12px;}
                     span{font-size: 10px;padding-top: 8px;}
                 }
                 .top-block-procent{padding-top: 61px;padding-left: 0;margin-bottom: 0px;
