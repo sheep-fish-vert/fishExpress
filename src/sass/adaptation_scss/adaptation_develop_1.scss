@@ -378,7 +378,7 @@
 
     /* our-quests */
 
-        .our-quests{min-height: 570px;
+        .our-quests{
             .our-quests-wrap{
                 .our-quest-item{
                     .our-quest-item-img{
@@ -392,6 +392,6 @@
     /* /our-quests */
 
 }
-@media screen and (max-width: 320px){
-
+@media screen and (max-width: 340px){
+    .our-quests{min-height: 570px;}
 }
