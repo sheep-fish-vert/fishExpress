@@ -77,6 +77,13 @@ function animationBlock(item){
 
 /*GO TO href*/
 function goTo(){
+    $('.header-menu-wrap ul li a').click(function(e){
+        e.preventDefault();
+        var href = $(this).attr('href');
+        var target = $(href).offset().top;
+        $(scroller).animate({scrollTop:target},500);
+    });
+
     $('a[data-id]').click(function(e){
         e.preventDefault();
         var href = $(this).attr('data-id');
