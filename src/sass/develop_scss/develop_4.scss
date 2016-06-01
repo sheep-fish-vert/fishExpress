@@ -97,8 +97,10 @@
 .fotogallery{overflow: hidden;background-color: #f3f8fb;padding-top: 31px;padding-bottom: 146px;
     .title{padding-bottom: 65px;}
     .fotogallery-slider{margin: 0 -30px;}
-    .fotogallery-slider-item{text-align: center;margin:0 10px; max-height: 267px; position: relative;
-        a{display: inline-block;}
+    .fotogallery-slider-item{text-align: center;margin:0 10px; max-height: 267px; position: relative; overflow: hidden;
+        a{display: block;
+            img{max-width: none; max-height: 267px; margin: 0 auto;}
+        }
         &:before{content: ''; display: block;position: absolute; left:calc(50% - 19px); top:calc(50% - 19px);  background-repeat: no-repeat; background-position: center; background-image: url(../images/zoom.png); opacity: 0; transition:opacity 500ms;width: 37px;height: 37px; cursor: pointer;pointer-events:none;}
         &:hover:before{opacity: 1;}
         &.video:before{background-image: url(../images/video.png);width: 57px;height: 57px; left:calc(50% - 29px); top:calc(50% - 29px);}
