@@ -1,9 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="07b5aab4-5627-48b4-bccc-ba887503f7e9" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/sass/develop_scss/develop_4.scss" afterPath="$PROJECT_DIR$/src/sass/develop_scss/develop_4.scss" />
-    </list>
+    <list default="true" id="07b5aab4-5627-48b4-bccc-ba887503f7e9" name="Default" comment="" />
     <ignored path="fishexpress.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path=".idea/dataSources.local.xml" />
@@ -252,12 +250,12 @@
       <updated>1462535355729</updated>
       <workItem from="1462535356970" duration="1070000" />
       <workItem from="1464767522343" duration="251000" />
-      <workItem from="1464771730455" duration="225000" />
+      <workItem from="1464771730455" duration="648000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="1546000" />
+    <option name="totallyTimeSpent" value="1969000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="23" width="2560" height="1339" extended-state="6" />
